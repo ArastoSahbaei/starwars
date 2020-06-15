@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Saira+Extra+Condensed:500');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../../design/images/starwars.jpg");
+    background-color: #cccccc;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Saira Extra Condensed", sans-serif;
+    overflow: visible;
+}
+
+ul li {
+    list-style: none;
+}

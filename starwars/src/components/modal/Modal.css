@@ -1,14 +1,16 @@
 .characterNameList {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    column-count: 3;
+    column-fill: auto;
+    height: 80%;
 }
 
 .title {
     font-size: 2.4rem;
 }
 
-.titleName {}
+.titleName {
+    padding: 2%;
+}
 
 .exitModal {
     margin-left: 95%;

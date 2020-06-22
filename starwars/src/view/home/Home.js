@@ -31,11 +31,12 @@ export const Home = () => {
                     loading
                         ? <img className="spinner" src={LoadingBar} alt="" />
                         : starWarsMovies?.map((movies) => (
-                            <ul className="movieList" key={movies.title}>
-                                <li>{movies.title}</li>
-                                <li>{movies.release_date}</li>
-                                <Modal choosenMovie={movies} />
-                            </ul>
+                            <Modal choosenMovie={movies}>
+                                <ul className="movieList" key={movies.title}>
+                                    <li>{movies.title}</li>
+                                    <li>{movies.release_date}</li>
+                                </ul>
+                            </Modal>
                         ))
                 }
             </div>

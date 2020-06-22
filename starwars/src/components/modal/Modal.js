@@ -38,9 +38,13 @@ export default function TransitionsModal(props) {
         })
     }, [])
 
+    const openModal = () => {
+        if (!open) handleOpen()
+    }
+
     return (
-        <div>
-            <Button variant="outlined" size="small" color="primary" onClick={handleOpen}> See Characters </Button>
+        <div onClick={openModal}>
+            {props.children}
             <Modal
                 aria-labelledby="transition-modal-title"
                 aria-describedby="transition-modal-description"

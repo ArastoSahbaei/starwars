@@ -47,11 +47,21 @@
         justify-self: center;
     }
 
+    .title {
+        font-size: 2rem;
+    }
+
+    .makeStyles-paper-1 {
+        width: 100%;
+        height: 100vh;
+        padding: 0px 0px 0px !important;
+    }
+
     .characters {
         display: none;
     }
 
     .exitModal {
-        margin-left: 88%;
+        margin-left: 85%;
     }
 }

@@ -3,12 +3,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../../design/images/starwars.jpg");
-    background-color: #cccccc;
+    background-color: #34495e;
     height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: "Saira Extra Condensed", sans-serif;
     overflow: visible;
 }

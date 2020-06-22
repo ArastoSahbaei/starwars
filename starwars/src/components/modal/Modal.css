@@ -39,10 +39,19 @@
 @media only screen and (max-width: 1140px) {
     .characterNameList {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
         grid-column: 1/1;
         align-items: center;
         justify-self: center;
+    }
+
+    .characters {
+        display: none;
+    }
+
+    .exitModal {
+        margin-left: 88%;
     }
 }

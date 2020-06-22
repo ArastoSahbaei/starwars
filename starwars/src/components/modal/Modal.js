@@ -59,7 +59,8 @@ export default function TransitionsModal(props) {
                 <Fade in={open}>
                     <div className={classes.paper}>
                         <div className="exitModal" onClick={() => handleClose()}>Close</div>
-                        <h2 className="title" id="transition-modal-title">{props.choosenMovie.title}</h2>
+                        <p className="title" id="transition-modal-title">{props.choosenMovie.title}</p>
+                        <p className="characters">Characters</p>
                         <div className="characterNameList">
                             {people.map((p, i) => {
                                 return <ul id="transition-modal-description">

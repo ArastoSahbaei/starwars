@@ -28,6 +28,10 @@ export default function TransitionsModal(props) {
         setOpen(false)
     }
 
+    const openModal = () => {
+        if (!open) handleOpen()
+    }
+
     useEffect(() => {
         const promiseArray = []
         props.choosenMovie.characters.forEach(c => {
@@ -36,11 +40,7 @@ export default function TransitionsModal(props) {
                 setPeople(res)
             })
         })
-    }, [])
-
-    const openModal = () => {
-        if (!open) handleOpen()
-    }
+    }, [props.choosenMovie.characters])
 
     return (
         <div onClick={openModal}>

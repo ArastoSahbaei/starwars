@@ -21,7 +21,7 @@ export const Home = () => {
 
     useEffect(() => {
         getStarWarsMovies()
-    })
+    }, [])
 
     return (
         <div className="homeContainer">

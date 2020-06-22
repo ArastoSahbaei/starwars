@@ -9,7 +9,6 @@ export const Home = () => {
     const [loading, setLoading] = useState(true)
 
     const getMoviesAndStopLoading = (dataResponse) => {
-        console.log(dataResponse)
         setStarWarsMovies(dataResponse)
         setLoading(false)
     }
@@ -22,7 +21,7 @@ export const Home = () => {
 
     useEffect(() => {
         getStarWarsMovies()
-    }, [])
+    })
 
     return (
         <div className="homeContainer">
@@ -30,8 +29,8 @@ export const Home = () => {
                 {
                     loading
                         ? <img className="spinner" src={LoadingBar} alt="" />
-                        : starWarsMovies?.map((movies) => (
-                            <Modal choosenMovie={movies}>
+                        : starWarsMovies?.map((movies, i) => (
+                            <Modal key={i} choosenMovie={movies}>
                                 <div className="movieListContainer">
                                     <div className="movieList" key={movies.title}>
                                         <div className="titleOfMovie">{movies.title}</div>

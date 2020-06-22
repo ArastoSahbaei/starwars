@@ -84,6 +84,13 @@
     .homeContainer {
         height: 100%;
     }
+
+    .dateOfMovie {
+        grid-column: 1/5;
+        align-self: bottom;
+        justify-self: end;
+        margin: 5%;
+    }
 }
 
 @keyframes fromLeftToRight {

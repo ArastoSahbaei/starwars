@@ -14,6 +14,7 @@
 }
 
 .movieList {
+    border-radius: 5%;
     background-color: #3598db;
     color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

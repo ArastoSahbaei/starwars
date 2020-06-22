@@ -63,9 +63,7 @@ export default function TransitionsModal(props) {
                         <p className="characters">Characters</p>
                         <div className="characterNameList">
                             {people.map((p, i) => {
-                                return <ul id="transition-modal-description">
-                                    <li key={i}>{p.name}</li>
-                                </ul>
+                                return <div className="titleName" key={i}>{p.name}</div>
                             })}
                         </div>
                     </div>

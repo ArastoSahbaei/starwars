@@ -2,12 +2,13 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    text-align: center;
 }
 
 .title {
     font-size: 2.4rem;
 }
+
+.titleName {}
 
 .exitModal {
     margin-left: 95%;

@@ -43,16 +43,13 @@
 .titleOfMovie {
     font-size: 1.4rem;
     grid-column: 1/5;
-    grid-row: 1/2;
     align-self: center;
-    justify-self: center;
+    margin-bottom: -4%;
 }
 
 .dateOfMovie {
     grid-column: 1/5;
-    align-self: bottom;
-    justify-self: bottom;
-    margin: 5%;
+    margin-bottom: 4%;
 }
 
 .movieContainer {

@@ -9,6 +9,11 @@
     text-align: center;
 }
 
+.exitModal {
+    margin-left: 95%;
+    margin-top: 1%;
+}
+
 .exitModal:hover {
     cursor: pointer;
 }

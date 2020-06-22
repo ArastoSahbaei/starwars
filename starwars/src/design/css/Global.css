@@ -10,3 +10,9 @@ body {
 ul li {
     list-style: none;
 }
+
+@media only screen and (max-width: 1140px) {
+    body {
+        background-color: #3598db;
+    }
+}

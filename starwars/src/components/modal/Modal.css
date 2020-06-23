@@ -43,10 +43,6 @@
         display: grid;
         grid-gap: 10px;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 1fr);
-        grid-column: 1/1;
-        align-items: center;
-        justify-self: center;
     }
 
     .title {

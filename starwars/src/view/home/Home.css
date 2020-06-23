@@ -75,6 +75,8 @@
     .movieList {
         background-color: #34495e;
         border-radius: 0%;
+        padding: 10%;
+        height: 10vh;
     }
 
     .homeContainer {
